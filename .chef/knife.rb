@@ -7,3 +7,5 @@ node_name                "bsumm"
 client_key               "#{current_dir}/bsumm.pem"
 chef_server_url          "https://172.31.2.252/organizations/coveros2"
 cookbook_path            ["#{current_dir}/../cookbooks"]
+# Amazon AWS
+knife[:aws_credential_file] = "/home/centos/aws.txt"

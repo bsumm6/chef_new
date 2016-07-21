@@ -1,4 +1,4 @@
-pshots]
+[snapshots]
 name=Snapshots
 baseurl=http://172.31.2.141:8081/nexus/content/repositories/snapshots/
 enabled=1
